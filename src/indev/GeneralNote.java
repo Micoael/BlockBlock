@@ -3,7 +3,10 @@ import java.util.Date;
 import java.util.Random;
 
 public class GeneralNote {
-	private long UID=0 ;
+	/**
+	 * The UID 
+	 */
+	private long UID ;
 	private String evtTitle;
 	private String evtDesc;
 	private Date evtDate;
@@ -21,6 +24,11 @@ public class GeneralNote {
 	public void setEvtTitle(String EvtTitle) {
 		this.evtTitle=EvtTitle;
 	}
+	
+	public void setEvtDate(Date evtDate2) {
+		this.evtDate=evtDate2;
+	}
+	
 	
 	public void setEvtDesc(String EvtDesc) {
 		this.evtDesc=EvtDesc;
@@ -41,4 +49,6 @@ public class GeneralNote {
 	public Date getDate(){
 		return this.evtDate;
 	}
+	
+	
 }
