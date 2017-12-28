@@ -70,7 +70,7 @@ public class ModelList extends JFrame{
 	@SuppressWarnings("unchecked")
 	public void addTitle(GeneralNote note) {
 		evtTitle.add(evtTitle.getSize(),note.getEvtTitle());
-		evtTick.addElement(new JCheckBox(" �� "));
+		evtTick.addElement(new JCheckBox(" done "));
 		
 	}
 	
