@@ -31,6 +31,21 @@ public class ModelList extends JFrame{
 	
 	
 	
+	
+	public ModelList() {
+		System.out.println("hi");
+	}
+
+
+
+
+
+
+
+
+
+
+
 	/**
 	 * add to the modelList through this method
 	 * @param note A NOTE OBJECT
@@ -55,7 +70,7 @@ public class ModelList extends JFrame{
 	@SuppressWarnings("unchecked")
 	public void addTitle(GeneralNote note) {
 		evtTitle.add(evtTitle.getSize(),note.getEvtTitle());
-		evtTick.addElement(new JCheckBox(" ¡¤ "));
+		evtTick.addElement(new JCheckBox(" ï¿½ï¿½ "));
 		
 	}
 	
